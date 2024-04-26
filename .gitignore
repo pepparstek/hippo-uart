@@ -1,3 +1,2 @@
 fpga/*.txt
 fpga/hippo_uart/*
-!fpga/hippo_uart/hippo_uart.srcs/
