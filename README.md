@@ -7,7 +7,7 @@ Intended as a simple interface to the host when testing new component implementa
 
 Run
 
-```vivado --mode tcl source hippo_uart.tcl```
+```vivado -mode tcl -source hippo_uart.tcl```
 
 in `./fpga/` to generate the `hippo_uart.xpr` Vivado project file. The project, and included constraints assume an Arty A35T board.
 
