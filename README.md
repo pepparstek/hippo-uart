@@ -1,9 +1,9 @@
-### Hippo UART
+## Hippo UART
 
 Break out of the exceedingly simple Hippomenes UART HDL implementation.
 Intended as a simple interface to the host when testing new component implementations on HW.
 
-## Usage
+### Usage
 
 Run
 
@@ -11,7 +11,9 @@ Run
 
 in `./fpga/` to generate the `hippo_uart.xpr` Vivado project file. The command typically results in an error
 
-```ERROR: [Vivado 12-172] File or Directory '<PATH_TO_REPO>/hippo-uart/fpga/hippo_uart/hippo_uart.srcs/utils_1/imports/synth_1/fpga_uart.dcp' does not exist```
+```
+ERROR: [Vivado 12-172] File or Directory '<PATH_TO_REPO>/hippo-uart/fpga/hippo_uart/hippo_uart.srcs/utils_1/imports/synth_1/fpga_uart.dcp' does not exist
+```
 
 which can be safely ignored.
 
