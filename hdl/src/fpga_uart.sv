@@ -21,7 +21,7 @@ module fpga_uart
       // Clock out ports
       .clk_out1(clk),
       // Status and control signals
-      .reset(tmp_sw0),
+      .reset(tmp_sw1),
       .locked
   );
 
