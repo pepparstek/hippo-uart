@@ -1,2 +1,4 @@
 fpga/*.txt
+fpga/*.log
+fpga/*.jou
 fpga/hippo_uart/*
