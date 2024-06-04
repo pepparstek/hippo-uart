@@ -102,7 +102,7 @@ package config_pkg;
   localparam CsrAddrT FifoWordCsrAddr = 'h50;
   localparam CsrAddrT FifoByteCsrAddr = 'h51;
   localparam integer unsigned CoreFreq = 20000000;
-  localparam integer unsigned UartBaudRate = 115200;
+  localparam integer unsigned UartBaudRate = 115200;  // 115200;
   localparam integer unsigned UartCmpVal = CoreFreq / UartBaudRate;
 
 endpackage
